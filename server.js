@@ -39,15 +39,3 @@ else{
 }).listen(3000);
 
 console.log('Servidor iniciado...');
-/*
-const http = require('http');
-const host = '127.0.0.1';
-const port = 4000;
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Primer servidor con Node.Js');
-});
-server.listen(port);
-console.log('Servidor iniciado...');
-*/
